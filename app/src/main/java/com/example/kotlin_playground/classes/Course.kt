@@ -1,6 +1,6 @@
 package com.example.kotlin_playground.classes
 
-data class Course(val id: Int, val name: String, val author: String, val courseCategory: CourseCategory = CourseCategory.DEVELOPMENT) { //complete idea how object looks, equality doesnt work without data class, copy operation data
+data class Course(val id: Int, val name: String, val author: String, var courseCategory: CourseCategory = CourseCategory.DEVELOPMENT) { //complete idea how object looks, equality doesnt work without data class, copy operation data
 
 }//data container
 
